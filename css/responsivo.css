@@ -181,6 +181,14 @@ h3.h3-pq-autoclass img {
   margin: auto;
 }
 
+/* alunos carrousel */
+.slider-alunos {
+  overflow: hidden;
+}
+body{
+  overflow: auto;
+}
+
 
 }
 
@@ -232,5 +240,6 @@ body .variable-width-mentores button.slick-prev {
 }
 
 body .variable-width-mentores .slick-prev:before {width: 30px !important;height: 45px !important; inset: 0;}
+
 
 }
