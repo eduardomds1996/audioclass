@@ -89,6 +89,32 @@
   #logo-footer{
     margin-bottom: 30px;
   }
+  /* alunos carrousel */
+
+.slider-alunos .slick-prev {
+  left: 30px;
+}
+.slider-alunos .slick-next {
+  right: 30px;
+}
+
+.center .slick-center .box-slider-aluno {
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  -webkit-transform: none;
+  color: #fff;
+  opacity: 1;
+  transform: none;
+  transition: 0.2;
+}
+
+.slick-list.draggable {
+  overflow: hidden;
+}
+body{
+  overflow: auto;
+}
 }
 
 @media only screen and (max-width: 768px){
@@ -181,21 +207,18 @@ h3.h3-pq-autoclass img {
   margin: auto;
 }
 
-/* alunos carrousel */
-.slider-alunos {
-  overflow: hidden;
-}
-body{
-  overflow: auto;
-}
+
 
 
 }
 
 @media only screen and (max-width: 567px){
+  .dep-text {
+    width: 100%;
+}
   .dep-text p {
-    font-size: 2.5vw;
-    padding: 0 7vw;
+    font-size: 3vw;
+    padding: 0 3vw;
 }
 
 .center .slick-center .box-slider-aluno {
