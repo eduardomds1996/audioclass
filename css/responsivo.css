@@ -264,5 +264,8 @@ body .variable-width-mentores button.slick-prev {
 
 body .variable-width-mentores .slick-prev:before {width: 30px !important;height: 45px !important; inset: 0;}
 
-
+/* footer */
+.footer-bottom {
+  flex-direction: column;
+}
 }
