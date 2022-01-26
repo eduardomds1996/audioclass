@@ -168,7 +168,6 @@ li.nav-item.ativo {
 .card-curso {
       width: 300px;
     height: 500px;
-    margin: 0 15px;
     border-radius: 10px;
     background-position: center;
     background-size: cover;
@@ -205,12 +204,14 @@ li.nav-item.ativo {
 .card-curso-ax .box-sombra{
   padding: 10px;
   background-size: contain;
+  white-space: normal;
 
 
 }
 .card-curso-ax p {
   padding: 0 10px;
   color: #fff;
+  
   display: none;
 }
 
