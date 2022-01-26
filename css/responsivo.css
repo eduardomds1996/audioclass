@@ -16,6 +16,14 @@
 }
 
 @media only screen and (max-width: 992px){
+  .card-curso-ax .box-sombra{
+    padding: 10px;
+    background-size: contain;
+    -webkit-align-self: flex-end;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    margin-top: auto;
+  }
   footer{
     padding-top: 100px;
   }
