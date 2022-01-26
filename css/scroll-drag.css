@@ -76,10 +76,5 @@
     min-width: 300px;
     margin: 0em 1em;
   }
-  @media screen and (max-width: 500px) {
-    .item {
-      min-height: 200px;
-      min-width: 200px;
-    }
-  }
+ 
 }
