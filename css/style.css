@@ -709,3 +709,22 @@ footer{
   color: #fff;
   text-decoration: none;
 }
+
+
+/* 25 01 22 */
+
+.variable-width-mentores button.slick-prev {
+  display: none;
+}
+
+.variable-width-mentores button.slick-next:before {
+  display: none;
+}
+
+.variable-width .slick-prev:before {
+  display: none;
+}
+
+.variable-width button.slick-next:before {
+  display: none;
+}
