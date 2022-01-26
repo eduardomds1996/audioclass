@@ -16,6 +16,12 @@
 }
 
 @media only screen and (max-width: 992px){
+  .opcoes-cursos_ {
+    overflow: hidden;
+}
+  .slider-principal{
+    background-position: center;
+  }
   #link-cursos, #link_mentores {
     margin-bottom: 135px;
 }
