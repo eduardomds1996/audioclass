@@ -156,6 +156,10 @@ body{
 }
 
 @media only screen and (max-width: 768px){
+  .box-slider-aluno{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
   /* filtro */
   .btn-filtro-cursos {
     bottom: -30px;
@@ -239,7 +243,7 @@ h3.h3-pq-autoclass img {
 .slider-alunos .slick-prev {
   top: auto;
   bottom: -80px;
-  left: -40px;
+  left: -70px;
   right: 0;
   margin: auto;
 }
@@ -247,7 +251,7 @@ h3.h3-pq-autoclass img {
 .slider-alunos .slick-next {
   top: auto;
   bottom: -80px;
-  right: -40px;
+  right: -70px;
   left: 0;
   margin: auto;
 }
