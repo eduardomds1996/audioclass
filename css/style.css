@@ -657,7 +657,7 @@ footer{
   background-image: -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(#000), color-stop(#000), color-stop(#030303), to(#1c1c1c));
   background-image: -o-linear-gradient(top, #000, #000, #000, #030303, #1c1c1c);
   background-image: linear-gradient(to bottom, #000, #000, #000, #030303, #1c1c1c);
- padding-top: 120px;
+ padding-top: 230px;
 }
 .footer-bottom{
   display: -webkit-box;
