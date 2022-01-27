@@ -203,7 +203,7 @@ li.nav-item.ativo {
 }
 .card-curso-ax .box-sombra{
   padding: 10px;
-  background-size: contain;
+  background-size: 100% 100%;
   white-space: normal;
 
 
@@ -313,6 +313,9 @@ box-shadow: 5px 5px 15px 5px #000000;
   height:100px;
   width: 100%;
 }
+.main-mentores:before {
+  bottom: 0;
+}
 .card-mentores{
   background-size: cover;
   background-position: 50%;
@@ -416,6 +419,27 @@ box-shadow: 5px 5px 15px 5px #000000;
   opacity: 0.8;
 }
 /* FILTRO CURSO */
+.main_filtro {
+  background: transparent !important;
+}
+
+.main_filtro .item {
+  min-height: auto;
+  min-width: auto;
+  margin: 0;
+}
+.items_mentores {
+  padding: 0;
+  margin: 0;
+}
+.items_filtros {
+  margin: 0;
+  padding: 0;
+}
+.main_filtro::before {
+  background: #181818;
+  bottom: -10px;
+}
 .master-filtro-cursos {
   position: relative;
   margin-top: 80px;
