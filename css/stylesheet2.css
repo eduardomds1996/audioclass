@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Aequitas';
+    src: url('../fonts/');
+    src: url('../fonts/?#iefix') format('embedded-opentype'),
+        url('../fonts/AequitasBlack-Regular.woff2') format('woff2'),
+        url('../fonts/AequitasBlack-Regular.woff') format('woff'),
+        url('../fonts/AequitasBlack-Regular.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
